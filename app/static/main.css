@@ -1,0 +1,45 @@
+.poketext {
+    font-family: 'Press Start 2P';
+}
+
+.center-text{
+    text-align: center;
+}
+
+.center-img{
+    display: block;
+    margin: auto;
+}
+
+.register-div{
+    width: 500px;
+    height: 450px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.two-buttons-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.two-buttons-vertical-div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+.text-button{
+    color: grey;
+    text-decoration: none;
+}
+
+.text-button:hover{
+    
+    color: white;
+    transition-duration: 0.2s;
+}
